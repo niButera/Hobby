@@ -1,0 +1,26 @@
+.header {
+    background-color: #f2f2f2;
+    position: fixed; 
+    width: 100%;
+    z-index: 100; 
+}
+
+a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+.header h1 { 
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 127px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
