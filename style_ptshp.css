@@ -1,26 +1,19 @@
-.header {
-    background-color: #f2f2f2;
-    position: fixed; 
-    width: 100%;
-    z-index: 100; 
-}
-
-a{
-    text-decoration: none; 
-    color: rgb(0, 0, 0);
-}
-
-.header h1 { 
-    color: rgb(0, 0, 0);
+h1 {
+    color: rgb(49, 49, 49);
     text-align: left;
     font-size: 30px;
-    margin-left: 127px;
+    margin-left: 120px;
     font-family: 'Anuphan', sans-serif;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+h2 {
+    color: rgb(39, 39, 39);
+    font-size: 1.3em;
+    margin-left: 120px;
+    font-family: 'Anuphan', sans-serif;
 }
 
-
+a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
