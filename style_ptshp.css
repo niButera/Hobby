@@ -1,26 +1,44 @@
-h1 {
+header {
     color: rgb(49, 49, 49);
     text-align: left;
     font-size: 30px;
-    margin-left: 120px;
+    margin-left: 110px;
+    padding: 10px;
+    font-family: 'Anuphan', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(39, 39, 39);
+    font-size: 1.3em;
+    margin-left: 5.8em;
     font-family: 'Anuphan', sans-serif;
 }
 
 h2 {
-    color: rgb(39, 39, 39);
-    font-size: 1.3em;
-    margin-left: 120px;
-    font-family: 'Anuphan', sans-serif;
-}
-
-h3 {
-    color: rgb(39, 39, 39);
+    color: rgb(255, 136, 0);
     font-size: 1.3em;
     font-family: 'Anuphan', sans-serif;
     margin-left: 20px;
 }
 
-a{
+h3 {
+    color: rgb(39, 39, 39);
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 120px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+h4 {
+    color: rgb(255, 136, 0);
+    font-size: 1.3em;
+    font-family: 'Anuphan', sans-serif;
+    margin-left: 120px;
+}
+
+a {
     text-decoration: none;
     color: rgb(39, 39, 39);
 }
@@ -33,42 +51,45 @@ p {
     font-family: 'Anuphan', sans-serif;
 }
 
-h4 {
-    color: rgb(39, 39, 39);
-    font-size: 1em;
-    font-weight: 100;
-    margin-left: 20px;
-    margin-right: 120px;
-    font-family: 'Anuphan', sans-serif;
-}
-
 span {
     color: rgb(39, 39, 39);
     font-size: 1em;
     margin-left: 120px;
     margin-right: 12px;
     font-family: 'Anuphan', sans-serif;
-    text-align: left; 
+    text-align: left;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rounded-box {
-    background-color: #fcf5f0; 
-    border-radius: 35px; 
-    padding: 10px; 
-    padding-right: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.Print{
+.Print {
     margin-left: 120px;
 }
 
-.Desktop{
+.Desktop {
+    text-align: center;
+}
+
+.botao-laranja {
+    background-color: rgb(255, 136, 0);
+    font-family: 'Anuphan', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.botao-laranja:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    color: rgb(255, 136, 0);
+    font-size: 1em;
+    font-family: 'Anuphan', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
 }
